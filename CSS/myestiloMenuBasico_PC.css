@@ -1,0 +1,116 @@
+nav{
+	min-height:7%;
+	max-height:9.5%;
+	position:absolute;
+	width:95%;
+	max-width:1400px;
+	
+	
+}
+.menu1{
+	float:left;
+	width:79%;
+	
+}
+.menu1>ul{
+	margin-left:20%;
+	height:80%;
+	margin-right:0%;
+	width:100%;
+}
+.menu2{
+	float:right;
+	width:19%;
+	text-align:left;
+	margin-right:1%;
+	margin-left:0%;
+	
+}
+.as{/*.menu2 .menu-nivel1>li:first-child { el ancho del carro*/
+	width:60%;
+	
+}
+.menuusu{/*ancho del nombre{*/
+	
+	width:400%;
+	
+}
+.menuusu a{
+	color:white;
+	text-decoration: none;
+	float:right;
+	margin-right:0%;
+	font-size:100%;
+	padding: 0.5% 2%;
+	width: 100%;
+	
+	
+}
+
+.menu2>ul{
+	margin-left:0%;
+	height:80%;
+	margin-right:0%;
+	width:auto;
+}
+
+
+/*alineación de las opciones de menu*/
+
+.menu-nivel1{
+	display:-webkit-inline-flex;
+	list-style-type:none;
+}
+
+.menu1>.menu-nivel1>li>a{
+	text-align:center;
+	height:25%;
+	line-height:20%;
+	padding: 10px 20px;
+}
+.menu-nivel2>li>a{
+	text-align:left;
+	/*height:100%;*/
+	line-height:100%;
+	min-width: 100%;
+	padding: 10px 20px;
+}
+/*alineación de las subopciones de menu*/
+
+.menu1 .menu-nivel2{
+	position:absolute;
+	margin-left:-3%;
+	min-width:8%;
+}
+.menu1 .menu-nivel3{
+	position:absolute;
+	margin-left:66%;
+	margin-top:-10%;
+	min-width:100%;
+}
+.menu1 .menu-nivel4{
+	position:absolute;
+	margin-left:36%;
+	margin-top:-10%;
+	min-width:100%;
+}
+.menu2 .menu-nivel2{
+	position:absolute;
+	margin-left:-0.8%;
+	margin-top:1.5%;
+	max-width:10%;
+}
+
+.menuMovil,.ico-carroMovil,.ico-menuMovil,.a-carroMovil{
+	display:none;
+}
+
+.ico-carro{
+	width:19%;
+}
+.ico-cerrar{
+	width:12%;
+}
+section, .Slider{
+   margin-top:4.8%;
+}

@@ -1,0 +1,86 @@
+nav{
+	min-height:7%;
+	width:100%;
+	margin-top:0%;
+	max-height:100%;
+	
+}
+
+.menu1,
+.menu2{
+display:none;
+margin-top:0%;
+width:100%;
+
+}
+
+.menu1 a,
+.menu2 a{
+ text-align:left;
+}
+.slider{
+	margin-top:0%;
+}
+.punto-slider{
+ margin-top:-10%;
+}
+.ico-menuMovil{
+width:3%;
+float:right;
+margin-right:2%;
+height:5%;
+margin-top:1%;
+
+}
+.check-movil ~ .ico-menuMovil{
+ background-image: url("../img/menu.png");
+ background-repeat:no-repeat;
+ background-size:contain;
+}
+.check-movil:checked    ~ .ico-menuMovil{
+ background-image: url("../img/exit.png");
+ background-repeat:no-repeat;
+ background-size:contain;
+}
+.check-movil  ~ .a-carroMovil{
+display:block;
+text-decoration: none;
+overflow:hidden;
+margin-left:70%;
+}
+
+.a-carroMovil{
+text-decoration: none;
+margin-left:60%;
+}
+
+.ico-carroMovil{
+width:8%;
+margin-top:3%;
+}
+.ico-menuMovil:hover{
+cursor:pointer; /*manito*/
+}
+
+.check-movil{
+ display:none;
+}
+.check-movil:checked  ~ .menu1, 
+.check-movil:checked  ~ .menu2{
+display:block;
+}
+.check-movil:checked  ~ .a-carroMovil{
+opacity:0;/*oculto pero no libero espacio*/
+
+}
+.check-movil  ~ .menu1,
+.check-movil  ~ .menu2{
+display:none;
+}
+.ico-carro{
+width:3%;
+
+}
+.ico-cerrar{
+width:4%;
+}

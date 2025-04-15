@@ -1,0 +1,22 @@
+.slider{
+	/*margin-top:3%;*/
+ }
+section{
+	height:30%;
+}
+.article1,
+.article2,
+.article3{
+	width:33.33%;
+	height:100%;
+}
+ article{
+   float:left;
+  
+  }
+article a img{
+	margin-top:8%;
+}
+footer{
+  margin-top:0%;
+}

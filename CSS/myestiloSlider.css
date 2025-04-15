@@ -1,0 +1,89 @@
+.slider ul{
+  display:flex;
+  padding:0;
+  width:300%;
+  height:100%;
+  animation: cambio 15s infinite alternate;
+  animation-timing-function:step-start;
+  
+}
+.slider li{
+  width:100%;
+  list-style:none;
+  height:100%;
+  
+}
+.slider img, .slider video{
+   width:100%;
+   height:100%;
+}
+.punto-slider{
+	 width:100%;
+	 text-align:center;
+	 margin-top:-5%;
+	
+}
+.punto-slider a{
+	border-radius:50% 50%;
+	background-color:grey;
+	width:9px;
+	text-decoration:none;
+	
+}
+.punto-slider1{
+	animation: punto1 15s infinite alternate;
+    animation-timing-function:step-start;
+}
+.punto-slider2{
+	animation: punto2 15s infinite alternate;
+    animation-timing-function:step-start;
+}
+.punto-slider3{
+	animation: punto3 15s infinite alternate;
+    animation-timing-function:step-start;
+}
+.punto-slider a:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+@keyframes cambio{
+  0% {margin-left:0%;}
+  30% {margin-left:0%;}
+  
+  35% {margin-left:-100%;}
+  65% {margin-left:-100%;}
+  
+  70% {margin-left:-200%;}
+  100% {margin-left:-200%;}
+}
+@keyframes punto1{
+  0% {background-color:green;}
+  30% {background-color:green;}
+  
+  35% {background-color:grey;}
+  65% {background-color:grey;}
+  
+  70% {background-color:grey;}
+  100% {background-color:grey;}
+}
+@keyframes punto2{
+  35% {background-color:green;}
+  65% {background-color:green;}
+  
+  0% {background-color:grey;}
+  30% {background-color:grey;}
+  
+  70% {background-color:grey;}
+  100% {background-color:grey;}
+}
+@keyframes punto3{
+  70% {background-color:green;}
+  100% {background-color:green;}
+  
+  35% {background-color:grey;}
+  65% {background-color:grey;}
+  
+	0% {background-color:grey;}
+  30% {background-color:grey;}
+}
+
+

@@ -1,0 +1,49 @@
+/*margin: 0 auto;
+width:90%;
+max-width:1200px;
+border-radius:0.9em;
+*/
+body{
+	margin: 0 auto;
+	width:95%;
+	max-width:1400px;
+	height:100vh;
+}
+
+.inicio{
+	height:7%;
+}
+
+header{
+	height:11%;
+	width:100%;
+	background-image: url("../img/titulo2.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+
+}
+/*menu de esta plantilla*/
+ul{
+	list-style: none;
+} 
+
+section,
+footer{
+	width:100%;
+}
+section{
+	height:80%;
+	
+}
+footer{
+  height:15%;
+}
+.contenido_completo{
+	height:100%;
+	width:100%;
+	margin-top:0%;
+	padding:2% 0%;
+	
+}
+
+

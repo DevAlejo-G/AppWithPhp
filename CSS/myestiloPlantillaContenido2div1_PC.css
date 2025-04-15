@@ -1,0 +1,15 @@
+/*dimensiones y margenes de los div*/
+.contenido_derecha{
+	height:100%;
+	width:30%;
+	float:right;
+   
+}
+.contenido_izquierda{
+	float:left;
+	height:100%;
+	width:70%;
+	
+}
+
+

@@ -1,0 +1,63 @@
+.form-resalto{
+	width:55%;
+}
+
+.form-resalto #id-boton-ojo,
+.form-resalto #id-boton-ojo1,
+.form-resalto #id-boton-ojo2{
+margin-left:-5.6%;
+margin-top:0%;
+
+}
+.form-plano input[type='text'],
+.form-plano input[type='date'],
+.form-plano input[type='password'],
+.form-plano input[type='number'],
+.form-plano input[type='email'],
+.form-plano input[type='shearch'],
+.form-plano .div-from-boton
+{
+	width:95%;
+	margin-left:3%;
+	
+}
+.form-plano label ~  input[type='text'],
+.form-plano label ~  input[type='date'],
+.form-plano label ~  input[type='password'],
+.form-plano label ~  input[type='number'],
+.form-plano label ~  input[type='email'],
+.form-plano label ~  input[type='shearch'],
+.form-plano label ~  select
+{
+	float:none;
+	width:95%;
+	margin-top:0%;
+}
+.form-plano #id-boton-ojo,
+.form-plano #id-boton-ojo1,
+.form-plano #id-boton-ojo2{
+margin-left:0%;
+margin-top:0%;
+
+}
+.form-plano label ~ #id-boton-ojo,
+.form-plano label ~ #id-boton-ojo1,
+.form-plano label ~ #id-boton-ojo2{
+margin-left:70%;
+margin-top:-11%;
+
+}
+.form-plano input[type='submit'],
+.form-plano input[type='reset']{
+	width:35%;
+	
+}
+.form-plano>label{
+   margin:0%;
+   margin-left:3%;
+   margin-top:0%;
+   padding:1% 0% 0% 0%;
+   float:none;
+  
+
+}

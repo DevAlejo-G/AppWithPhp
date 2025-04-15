@@ -1,0 +1,112 @@
+/*fuente y tamaño general*/
+body{
+	color:black;
+	font-size:0.8em;
+	font-family:Tahoma;
+}
+header{
+	background-color:white;
+	text-align:center;
+	font-size:2em;
+	font-weight:bold;
+    color:RGB(81,38,80);
+	
+}
+.tabla-tipo{
+font-family:Tahoma;
+font-size:1em;
+}
+/*****************************************COLORES*********************************************/
+/*fondo transparente*/
+.pag{
+
+background-color: transparent;
+
+}
+.no-disponible{
+background-color: rgb(201,201,201);
+}
+
+/*color de texto blanco y negrilla */
+.boton-semiovalado,.form-resalto legend,.form-opcion-buscar legend,
+.inicio,.a-carroMovil,.slider,.titulo-confirm,
+footer,asaide,.menu1 li>a,
+.menu2 li>a,nav,.titulo-tabla,
+.menu1 li>a:hover,.menu2 li>a:hover,.articulo a,.pag li>a,
+ul.paginas li {
+	color: white;/*RGB(56,116,12);*/
+	font-weight:200;/*bold;*/
+}
+/*color verde sanagustin*/
+.input-subraya:focus{
+	border-color:RGB(165,205,202);
+	
+}
+/*color de texto gris y negrilla */
+.cancelar-semiovalado{
+	color: grey;
+	font-weight:200;/*bold;*/
+}
+
+/*color de fondo azul sanagustin*/
+.boton-semiovalado,.form-resalto legend,.form-opcion-buscar legend,
+nav,.inicio,.slider,
+asaide,footer,.menu1 li>a,
+.menu2 li>a,.pagina-activa,
+.menu1, .menu2,section,
+.titulo-confirm,.titulo-tabla,
+.p-msj{
+	background-color:RGB(70,127,192);
+}
+body{
+  background-color:blue;
+}
+/*color grisecito*/
+body,form,.cancelar-semiovalado
+{
+	background-color:RGB(230,230,230);
+}
+/*color verde sanagustin*/
+.menu-nivel2 li>a:hover,.menu-nivel3 li>a:hover,
+.menu1 li>a:hover,.menuusu>a:hover,
+.menu-nivel2 li>a:active,
+.menu-nivel3 li>a:active,
+.menu1 li>a:active{
+	background-color:RGB(165,205,202);
+}
+/*colores de los articulos*/
+.article1{
+	background-color:grey;
+}
+.article2{
+	background-color:green;
+}
+.article3{
+	background-color:red;
+}
+.menu-nivel2 li>a {
+	background-color:white;
+	color:black;/*grey;*/
+	font-weight:normal;
+}
+
+/*colores contenido*/
+.contenido_completo{
+	background-color:white;
+}
+.contenido_derecha{
+	background-color:white;
+}
+.contenido_izquierda{
+	background-color:white;
+}
+
+/*****************************************************alineacion******************************/
+nav,.contenido_completo{
+  text-align:center;
+}
+/*****************************************FORMAS**********************************************/
+/*****FORMULARIOS*****/
+/****BOTONES**********/
+
+

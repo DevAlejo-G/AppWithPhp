@@ -1,0 +1,362 @@
+/*****************************************FORMAS**********************************************/
+/*division de select para los opciones*/
+.content-select{
+	background-color:red;
+}
+/**input numericos estan alineados a la derecha*/
+input[type='number']{
+	text-align:right;
+}
+/****LABEL************/
+
+form label{
+	display:block;/*esta linea es necesaria para que tome el ancho*/
+	width:30%;
+	margin-left:2%;
+	text-align:left;
+	padding:0%;/*OJO TODOS LOS INPUT DEL FORMULARIO TAMBIEN ESTE MISMO PADDING*/
+	
+}
+/*****FORMULARIOS*****/
+
+/******OJO LOS ANCHOS Y ALTOS DE LOS INPUT DEPENDEN DEL FORMULARIO***********************/
+/*0.form de busqueda*/
+.form-buscar{
+ width:30%;	
+ margin:auto;
+ background-color:transparent;
+}
+.form-buscar input[type='search']{
+	width:100%;
+	height:6%;
+}
+.form-buscar input[type='image']{
+	width:1.5em;
+	margin-left:90%;
+	margin-top:-7%;
+}
+.a-add{
+	text-align:center;
+	margin-left:30%;
+	margin-top:20%;
+	 
+}
+/*1. form-resalto*/
+.form-resalto{
+	border-radius:0.6em;
+	width:30%;
+	min-height:40%;
+	margin:auto;
+	border:outset;
+}
+.form-resalto not(legend){
+	padding:2%;
+}
+.form-resalto legend{
+	font-size:1.2em;
+	text-align:left;
+	width:84%;
+	height:5%;
+	padding:2% 8%;
+}
+
+.form-resalto input[type='text'],
+.form-resalto input[type='date'],
+.form-resalto input[type='password'],
+.form-resalto input[type='number'],
+.form-resalto input[type='email'],
+.form-resalto input[type='shearch'],
+.form-resalto input[type='date'],
+.form-resalto input[type='time'],
+.form-resalto .content-select /*select*/
+{
+	width:90%;
+	height:7%;
+	margin:auto;
+	margin-left:3%;
+}
+
+.form-resalto label{
+	width:90%;
+	margin-left:3%;
+	padding-top:1%;
+	margin:auto;
+}
+.form-resalto .input-subraya,
+.form-resalto .input-subraya-transparent{
+	margin-top:1%;
+	margin-bottom:3%;
+}
+.form-resalto #id-boton-ojo,
+.form-resalto #id-boton-ojo1,
+.form-resalto #id-boton-ojo2{
+width:30px;/*2.6*/
+position:absolute;
+margin-left:-3%;
+margin-top:0%;
+
+}
+.form-resalto input[type='submit'],
+.form-resalto input[type='reset'],
+.form-resalto input[type='button'],
+.div-from-boton a{
+width:45%;
+	
+}
+.form-resalto .div-from-boton{
+	width:100%;
+}
+/*2. form-full transparente*/
+.form-plano{
+	border-radius:0.3em;
+	width:50%;
+	min-height:40%;
+	margin:auto;
+	border:none;
+	background-color:transparent;
+	
+}
+.form-plano legend{
+	font-size:1.2em;
+	text-align:left;
+	width:10%;
+	height:3%;
+	padding:2% 8%;
+	border-radius:0.3em;
+}
+.form-plano input[type='text'],
+.form-plano input[type='date'],
+.form-plano input[type='password'],
+.form-plano input[type='number'],
+.form-plano input[type='email'],
+.form-plano input[type='shearch']
+{
+	width:80%;
+	height:6%;
+}
+.form-plano label ~  input[type='text'],
+.form-plano label ~  input[type='date'],
+.form-plano label ~  input[type='password'],
+.form-plano label ~  input[type='number'],
+.form-plano label ~  input[type='email'],
+.form-plano label ~  input[type='shearch'],
+.form-plano label ~ .content-select /*select*/
+{
+	width:48%;
+	height:6%;
+	float:right;
+	margin-right:3%;
+	
+}
+.form-plano #id-boton-ojo,
+.form-plano #id-boton-ojo1,
+.form-plano #id-boton-ojo2{
+width:20px;/*2.6*/
+margin-left:85%;
+margin-top:-7.5%;
+
+
+}
+.form-plano>label{
+   /*padding:5%;*/
+   margin-left:3%;
+   height:6%;
+   display:block;
+   float:left;
+   width:42%;
+   margin-bottom:3%;
+  
+   
+}
+.form-plano .div-from-boton{
+	width:80%;
+	margin:auto;
+}
+.form-plano>label ~ .div-from-boton{
+	width:90%;
+	margin:auto;
+}
+.form-plano input[type='submit'],
+.form-plano input[type='reset'],
+.form-plano input[type='button'],
+.div-from-boton a{
+	width:20%;
+	float:right;
+	margin-right:1%;
+	
+}
+.form-plano .input-subraya,
+.form-plano .input-subraya-transparent{
+	margin-top:0%;
+	margin-bottom:3%;
+	
+}
+.form-plano .input-subraya-transparent{
+background-color:transparent;
+}
+/*3. formulario de opciones de busqueda*/
+.form-opcion-buscar{
+	width:30%;	
+	margin:auto;
+	border:none;
+	background-color:transparent;
+}
+.contenido_izquierda .form-opcion-buscar{
+	width:70%;	
+	
+}
+.form-opcion-buscar legend{
+	font-size:1em;
+	text-align:left;
+	width:54%;
+	height:4%;
+	padding:1% 5%;
+	
+}
+
+.form-opcion-buscar input[type='text'],
+.form-opcion-buscar input[type='password'],
+.form-opcion-buscar input[type='number'],
+.form-opcion-buscar input[type='email'],
+.form-opcion-buscar input[type='shearch'],
+.form-opcion-buscar select
+{
+	width:50%;
+	height:8%;
+	font-size:0.7rem;
+	float:right;
+}
+.form-opcion-buscar input[type='date'],.form-opcion-buscar input[type='time']{
+	width:50%;
+	height:8%;
+	
+}
+.form-opcion-buscar label{
+	
+	/*margin-left:5%;*/
+	height:8%;
+	float:left;
+	width:48%;
+	/*padding-top:1%;*/
+	
+	
+}
+.form-opcion-buscar input[type='image']{
+	width:2em;
+	margin-left:0%;
+	margin-top:-6%;
+	
+}
+.contenido_izquierda .form-opcion-buscar input[type='image'] {
+	margin-left:14%;
+	margin-top:-6%;	
+	
+}
+/******INPUT****/
+
+form input[type='text'],
+form input[type='number'],
+form input[type='password'],
+form input[type='date'],
+form input[type='email'],
+form select{
+	padding:1.5%;/*todos los inpunto del formulario tienen este valor que debe ser igual a los label*/
+	
+}
+
+.input-subraya:first-child,
+.input-subraya-transparent:first-child{
+	margin-top:10%;
+}
+.input-subraya,
+.input-subraya-transparent{
+	/*margin-top:1%;
+	margin-bottom:3%;*/
+	margin-left:auto;
+	margin-right:auto;
+	font-size:1em;
+	font-weight:none;
+	border:none;
+	border-bottom:groove;
+}
+
+
+.input-subraya:focus,
+.input-subraya-transparent:focus{
+	outline: none;
+		
+}
+
+/****BOTONES**********/
+/*los colores de los botones 
+estan en coloreyfuentes. La diferencia
+entre boton y cancelar es el color del fondo.
+
+Los botones estaran dentro de un div del formulario*/
+
+
+.boton-semiovalado,
+.cancelar-semiovalado{
+	border-radius:0.4em;
+	border:outset;/*ridge;*/
+	margin-top:3%;
+	margin-bottom:3%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:1em;
+	padding:1%;
+}
+.boton-casitransparente{
+	margin-left:70%;
+	background-color:transparent;
+	border-radius:0.4em;
+	border:outset;/*ridge;*/
+	
+	font-size:1em;
+	padding:1%;
+}
+
+.boton-semiovalado:hover,
+.cancelar-semiovalado:hover{
+	cursor:pointer;
+}
+/************TABLAS******************/
+/*TABLA-TIPO. SON LAS GENERICAS QUE SE GENERAN DE FORMA AUTOMATICA Y SOLO SE MUESTRA ESAS*/
+.tabla-tipo{
+	min-width:30%;	
+	margin: 0 auto;
+	/*border-color:grey;
+	border-bottom-color:grey;*/
+	border:1px;
+	border-radius:0.3em;
+}
+.tabla-tipo td{
+	vertical-align: center;
+	border-bottom-color:grey;
+	border-top-color:grey;
+	
+}
+.titulo-tabla{
+ 	text-align:center;
+}
+.imgEliminar, .imgDetalle{
+	
+	width:1.5em;
+}
+/*parrafo de mensajes*/
+.p-msj{
+	/*min-width:20%;
+	width:100%;*/
+
+	margin-left:2%;
+	margin-right:2%;
+	width:auto;
+	margin-top:-1%;
+	height:7%;
+	color:white;
+	padding-top:1%;
+	border-radius:0.5em;
+	/* background-color:red;*/
+	text-align:right;
+	
+}
